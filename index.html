@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <style>
+
+        .about-card {
+            border-radius: 10px;
+            box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+            height: fit-content;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .about-card-img {
+            width: 100%;
+            height: 80vh;
+            -o-object-fit: repeat;
+            object-fit: repeat;
+            border-radius: 10px;
+        }
+
+        .about-card .card-body {
+            padding: 50px 20px 20px;
+        }
+
+        .about-card-description {
+            font-size: 20px;
+            color: #000;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .selfhead {
+            font-size: 90px;
+            font-weight: bolder;
+            font-family: 'Baloo Chettan 2', cursive;
+        }
+
+        @media only screen and (max-width:485px) {
+            .selfhead {
+                font-size: 50px;
+                font-weight: bold;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-card-img {
+                width: 100%;
+                height: 50vh;
+                -o-object-fit: repeat;
+                object-fit: repeat;
+                border-radius: 10px;
+            }
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VIVEK RAJ SINGH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- start -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="portfolio_Images/photo-1524561506982-601111bed7a6.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="portfolio_Images/photo-1612405199572-aa74dfbad7d0.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="portfolio_Images/photo-1497493292307-31c376b6e479.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- About -->
+    <div class="container" id="about">
+        <div class="card about-card">
+            <div class="row no-gutters">
+                <div class="col-sm-8 col-md-6">
+                    <img src="portfolio_Images/dppp.jpg" alt="login" class="about-card-img">
+                </div>
+                <div class="col-sm-8 col-md-6">
+                    <div class="card-body">
+                        <h2> VIVEK RAJ SINGH<h2>
+                                <div class="about-card-description">
+                                    <em> I build websites that speak. </em>
+                                    <br> <br> <br>
+                                    I am a west coast-based graphic artist who uses Graphic Design, Illustration,
+                                    Creative Direction and Brand Strategy to visually build creative rebellious brands
+                                    beyond a website. I have been employed as a web developer for the last ten years.
+                                    <br> <br>
+                                    If you want your clients to take a look at your website and decide that - Yes! They
+                                    want your product, at the first glance. Then you have come to the right place.
+                                </div>
+                                <a class="btn bg-info text-danger" href="#"> <strong>
+
+                                        Hire Me!</a>
+                                </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills -->
+    <div class="album py-1 bg-light" id="skill">
+        <div class="container">
+            <div class="selfhead text-center">
+                Skills
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/c++.png" alt="Card image cap" height="400px">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/c.png" alt="Card image cap" height="400px">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/python.png" alt="Card image cap" height="400px">
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/CSS3_logo_and_wordmark.svg" alt="Card image cap"
+                            height="400px">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/sass-logo.jpg" alt="Card image cap"
+                            height="400px">
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/js.png" alt="Card image cap" height="400px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div class="album py-1 bg-light" id="project">
+        <div class="container">
+            <div class="selfhead text-center">
+                Projects
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/bg_digital_clock.jpg" alt="Card image cap"
+                            height="260px">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                corporis delectus incidunt aliquid perferendis deleniti?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                </div>
+                                <small class="text-muted">25 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/javascript-calculator-code.png"
+                            alt="Card image cap" height="260px">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                corporis delectus incidunt aliquid perferendis deleniti?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                </div>
+                                <small class="text-muted">58 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/todo.png" alt="Card image cap" height="260px">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                corporis delectus incidunt aliquid perferendis deleniti?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/Screenshot-LMSC.png" alt="Card image cap"
+                            height="260px">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                    corporis delectus incidunt aliquid perferendis deleniti?</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                    </div>
+                                    <small class="text-muted">21 mins</small>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/temp.png" alt="Card image cap" height="260px">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                corporis delectus incidunt aliquid perferendis deleniti?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                </div>
+                                <small class="text-muted">44 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="portfolio_Images/bouncy.jpg" alt="Card image cap" height="260px">
+                        <div class="card-body">
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+                                corporis delectus incidunt aliquid perferendis deleniti?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Visit</button>
+                                </div>
+                                <small class="text-muted">2 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class=" py-1 text-muted text-center text-small bg-dark">
+        <p class="mb-1">&copy; 2020-2021 VIVEK RAJ SINGH</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="">Privacy</a></li>
+          <li class="list-inline-item"><a href="">Terms</a></li>
+          <li class="list-inline-item"><a href="">Support</a></li>
+        </ul>
+      </footer>
+</body>
+
+</html>
